@@ -1,8 +1,9 @@
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset=UTF-8">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <style>
 
@@ -31,7 +32,7 @@
 
         footer {
   position: relative;
-  height: 100px;
+  height: 125px;
             z-index: 10;
   background-image: linear-gradient(to top, #FF4E50, #F9D423);
   border-top-left-radius: 50% 20%;
@@ -133,6 +134,38 @@ margin-top: 1.5em;
 button:hover {
 cursor: pointer;
 }
+
+@media screen and (max-width: 70em){
+header {
+height: 200px;
+}
+h1 {
+padding: 50px 0;
+}
+
+#card_1 h1, #card_2 h1{
+font-size: 40px;
+}
+}
+
+@media screen and (max-width: 55em) {
+#card_1, #card_2 {
+float: inherit;
+margin-left: 15%;
+height: 33.5em;
+width: 80%;}
+#card_2 {
+margin-bottom: 3em;
+}
+}
+@media screen and (max-width: 32em) {
+header h1 {
+font-size: 30px;
+}
+#card_1, #card_2 {
+height: 30em;
+}
+}
     </style>
     </head>
 <body>
@@ -144,6 +177,7 @@ cursor: pointer;
 <div id="pic_1">
 <img src="unnamed.jpg">
 </div>
+<div id="card_cont>
     <div id="name_1">
     <h1>Tentaquod</h1></div>
 <div id="txt_1">
@@ -167,6 +201,7 @@ cursor: pointer;
       <div id="yt_btn"><a href="https://youtube.com/tubitex/"><button><i class="fab fa-youtube"></i><p>YouTube</button></a></div>
     <div id="insta_btn"><a href="https://www.instagram.com/tubitex_yt/"><button><i class="fab fa-instagram"></i><p>Instagram</p></button></a></div>
     </div>
+</div>
 <footer>
         <a href="agb.html"><p>Impressum & Datenschutz</p></a>
 
